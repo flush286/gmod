@@ -24,7 +24,7 @@ local function PlaceEntityOnDoorLocks()
                     
                     constraint.Weld(ent, door, 0, 0, 0, true, false)
                 else
-                    -- Vérifie si la porte est fermée pour DarkRP
+                    
                     if door:isKeysOwned() and door:isKeysLocked() then
                         door:Fire("unlock")
                         door:Fire("open")  
@@ -37,14 +37,14 @@ local function PlaceEntityOnDoorLocks()
     end
 end
 
--- Appelle la fonction pour placer ton entité sur chaque porte lorsque la carte est chargée
+
 hook.Add("InitPostEntity", "PlaceEntityOnDoorLocks", PlaceEntityOnDoorLocks)
 
--- Hook pour gérer le tir sur l'entité
+
 hook.Add("EntityTakeDamage", "OpenDoorOnEntityDamage", function(ent, dmg)
-    -- Vérifie si l'entité touchée est une de tes entités créées
+    
     if ent.door and IsValid(ent.door) and (ent.door.isKeysOwnable or ent.door:IsDoor()) then
-        -- Ouverture de la porte
+       
         ent.door:Fire("Open")
     end
 end)
