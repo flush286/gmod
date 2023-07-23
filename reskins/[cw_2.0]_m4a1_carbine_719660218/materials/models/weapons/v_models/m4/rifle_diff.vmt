@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\v_models\M4\rifle_diff"
+	"$bumpmap" "models\weapons\v_models\M4\m4_v3_n"
+	"$phongexponenttexture" "models\weapons\v_models\M4\rifle_specular"
+	"$envmap"			"env_cubemap"
+	"$envmapfresnel" 			"1"
+	"$envmapFresnelMinMaxExp"		"[10 40 .1]"
+	"$envmaptint"   			"[.07 .07 .07]"
+	"$normalmapalphaenvmapmask" 	"1"
+ 	"$phong" 			"1"
+
+	"$phongboost" 			"1"
+	"$phongfresnelranges"		"[2 6 11]"
+	"$phongalbedotint" 			"1"
+ 
+	"$rimlight"     "1"
+	"$rimlightexponent"   "30" 
+	"$rimlightboost"   "0.5"
+	"$rimmask"      "1"
+	
+}

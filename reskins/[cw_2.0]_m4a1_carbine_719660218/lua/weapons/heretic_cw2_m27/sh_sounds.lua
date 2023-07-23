@@ -1,0 +1,12 @@
+CustomizableWeaponry:addFireSound("Weapon_m27.Single", "weapons/M27 IAR/m4a1_unsil-1.wav", 1, 105, CHAN_STATIC)
+CustomizableWeaponry:addFireSound("Weapon_m27.Silenced2", "weapons/M27 IAR/m27-sil.wav", 1, 80, CHAN_STATIC)
+
+CustomizableWeaponry:addReloadSound("m27.BoltPull", "weapons/M27 IAR/m27IAR_boltpull.wav")
+CustomizableWeaponry:addReloadSound("m27.Boltforward", "weapons/M27 IAR/BoltForward.wav")
+CustomizableWeaponry:addReloadSound("m27.Boltback", "weapons/M27 IAR/BoltBack.wav")
+CustomizableWeaponry:addReloadSound("m27.MagOut", "weapons/M27 IAR/m27IAR_clipout.wav")
+CustomizableWeaponry:addReloadSound("m27.MagIn", "weapons/M27 IAR/m27IAR_clipin.wav")
+CustomizableWeaponry:addReloadSound("m27.fold", "weapons/M27 IAR/m27IAR_unfold.wav")
+CustomizableWeaponry:addReloadSound("m27.MagDrop", "weapons/M27 IAR/magdrop.wav")
+CustomizableWeaponry:addReloadSound("m27.Magdraw", "weapons/M27 IAR/magdraw.wav")
+CustomizableWeaponry:addReloadSound("m27.Magin1", "weapons/M27 IAR/MagIn1.wav")

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/v_models/[CW20-NeN] Glock 17/tritium"
+	"$selfillum" 1
+}

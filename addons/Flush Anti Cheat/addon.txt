@@ -1,0 +1,5 @@
+"title" "FAC"
+"type" "Anti-Cheat"
+"version" "Developpment"
+"author_name" "Flush"
+"description" "Flush Anti Cheat."

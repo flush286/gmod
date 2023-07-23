@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\v_models\M4\rearsightCol"
+	"$bumpmap" "models\weapons\v_models\M4\rearsightNor"
+	"$phongexponenttexture" "models\weapons\v_models\M4\rearsightSpec"
+
+	"$envmap"			"env_cubemap"
+	"$envmapfresnel" 			"1"
+	"$envmapFresnelMinMaxExp"		"[10 40 .1]"
+	"$envmaptint"   			"[.01 .01 .01]"
+	"$normalmapalphaenvmapmask" 	"1"
+ 	"$phong" 			"1"
+
+	"$phongboost" 			"0.5"
+	"$phongfresnelranges"		"[2 3 5]"
+	"$phongalbedotint" 			"1"
+ 
+	"$rimlight"     "1"
+	"$rimlightexponent"   "30" 
+	"$rimlightboost"   "0.5"
+	"$rimmask"      "1"
+	
+}

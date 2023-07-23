@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "atts/Bipod"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}
